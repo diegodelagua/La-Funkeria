@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Anime</title>
+</head>
+<body>
+    <header>
+        <nav class=" h-20 flex justify-between items-center px-2 bg-lime-300 lg:px-12">
+            <a href="../index.html" class="w-1/3 max-w-[100px]"><img class="w-full" src="../assets/Logo.png" alt="Logo"></a>
+            <input class="p-2 border-2 w-[50%] border-sky-700 rounded-lg" type="text" placeholder="Buscar">
+            <div class="flex gap-3">
+                <a href=""><img class="w-10 mr-3 hidden lg:flex" src="../assets/Login.png" alt=""></a>
+                <a href=""><img class="w-10 mr-3 hidden lg:flex" src="../assets/Carrito.png" alt=""></a>
+            </div>
+            <input type="checkbox" id="menu" class="peer hidden lg:hidden ">
+            <label for="menu" class="bg-open-menu w-6 h-5 bg-cover bg-center mr-3 cursor-pointer peer-checked:bg-close-menu transition-all z-50 lg:hidden"  ></label>
+            <div class="fixed inset-0  bg-gradient-to-b from-white/70 to-black/70 translate-x-full peer-checked:translate-x-0 transition-transform lg:hidden">
+                <ul class="absolute inset-x-0 top-24 p-12 bg-white w-[90%] mx-auto rounded-md h-max text-center grid gap-6 font-bold shadow-2xl lg:hidden">
+                    
+                    <li><a class="hover:text-cyan-400" href="">LOGIN</a></li>
+                    <li><a class="hover:text-cyan-400" href="#">CARRITO</a></li>
+                    <li><a class="hover:text-cyan-400" href="#">PREGUNTAS FRECUENTES</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="w-screen bg-yellow-100 lg:flex wrapper ">
+        <!--CATEGORIAS EN VISTE WEB-->
+        <div class="flex lg:flex flex-col gap-5 py-8 no-underline w-[100%] items-center bg-yellow-100">
+            <h1 class="text-violet-900 font-extrabold text-5xl">CATEGORIAS</h1>
+            <a class="bg-violet-700 font-bold text-white rounded-3xl text-xl w-40 text-center p-2 lg:transition-all lg:hover:scale-150 botones-categoria" id="dc" href="#">DC</a>
+            <a class="bg-violet-700 font-bold text-white rounded-3xl text-xl w-40 text-center p-2 lg:transition-all lg:hover:scale-150 botones-categoria" id="marvel" href="#">MARVEL</a>
+            <a class="bg-violet-700 font-bold text-white rounded-3xl text-xl w-40 text-center p-2 lg:transition-all lg:hover:scale-150 botones-categoria" id="disney" href="#">DISNEY</a>
+            <a class="bg-violet-700 font-bold text-white rounded-3xl text-xl w-40 text-center p-2 lg:transition-all lg:hover:scale-150 botones-categoria" id="gamer" href="#">GAMER</a>
+            <a class="bg-violet-700 font-bold text-white rounded-3xl text-xl w-40 text-center p-2 lg:transition-all lg:hover:scale-150 botones-categoria" id="anime" href="#">ANIME</a>
+        </div>
+        
+        <div class="bg-yellow-100 flex flex-wrap justify-center gap-4   lg:grid lg:grid-cols-2 lg:grid-rows-3 lg:justify-around lg:items-center" id="contenedor">
+        </div>
+        
+    </main>
+
+    <!-- PIE DE PAGINA -->
+    <footer class="bg-lime-300 px-2 border-y-2 border-gray-600 lg:flex justify-around">
+        <nav class="p-6">
+            <a href="../index.html"><img class="max-w-[100px] " src="../assets/Logo.png" alt="logo">
+            </a>    
+                <li class="flex gap-3 my-5">
+                <img class="w-4" src="../assets/Direccion.png" alt=""><a href="">Calle 83 n°259</a>
+                </li>
+                <li class="flex gap-3 my-5 ">
+                <img class="w-4" src="../assets/Telefono.png" alt=""><a href="">2262-613851</a>
+                </li>
+                <li class="flex gap-3 my-5 ">
+                <img class="w-4" src="../assets/Horario.png" alt=""><a href="">09:00 hs - 17:00 hs</a>
+                </li>
+                <li class="flex gap-3 my-5 ">
+                <img class="w-4" src="../assets/E-mail.png" alt=""><a href="">email: funkeria@gmail.com</a>
+                </li>
+            
+        </nav>
+        <div class="p-6">
+            <h3 class="font-bold">SEGUINOS</h3>
+            <div class="" >
+            <a href=""><img class="w-8 my-5" src="../assets/Facebook.png" alt="Facebook"></a>
+            <a href=""><img class="w-8 my-5" src="../assets/Instagram.png" alt="Instagram"></a>
+            <a href=""><img class="w-8 my-5" src="../assets/Twitter.png" alt="Twitter"></a>
+            </div>    
+        </div>
+    </footer>
+    <div class="text-center bg-slate-400">
+        <p>© 2023 La Funkeria — Diego</p>
+    </div>
+    <script src="../javascript/main.js"></script>
+</body>
+</html>
