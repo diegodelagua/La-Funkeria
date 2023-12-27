@@ -10,8 +10,8 @@ class Producto{
 }
 
 //MARVEL
-const MARVEL_0001 = new Producto ("Capitan <br> America",4900,"./assets/MARVEL/Captain-america.jpeg","marvel");
-const MARVEL_0002 = new Producto ("Dr. <br> Strange",4600,"./assets/MARVEL/Dr.Strange.jpeg","marvel");
+const MARVEL_0001 = new Producto ("Capitan America",4900,"./assets/MARVEL/Captain-america.jpeg","marvel");
+const MARVEL_0002 = new Producto ("Dr.Strange",4600,"./assets/MARVEL/Dr.Strange.jpeg","marvel");
 const MARVEL_0003 = new Producto ("Groot",5000,"./assets/MARVEL/Groot.jpeg","marvel");
 const MARVEL_0004 = new Producto ("Hulk",3900,"./assets/MARVEL/Hulk.jpeg","marvel");
 const MARVEL_0005 = new Producto ("Hulkbuster",4200,"./assets/MARVEL/Hulkbuster.jpeg","marvel");
@@ -31,7 +31,7 @@ const MARVEL_0018 = new Producto ("Wolverine",5000,"./assets/MARVEL/Wolverine.jp
 
 //GAMER
 const GAMER_0001 = new Producto ("Altair",4000,"./assets/GAMER/Altair.jpeg","gamer");
-const GAMER_0002 = new Producto ("Call of <br> Duty",3600,"./assets/GAMER/COD.jpeg","gamer");
+const GAMER_0002 = new Producto ("Call of Duty",3600,"./assets/GAMER/COD.jpeg","gamer");
 const GAMER_0003 = new Producto ("Crash",4300,"./assets/GAMER/Crash.jpeg","gamer");
 const GAMER_0004 = new Producto ("Cuphead",4400,"./assets/GAMER/Cuphead.jpeg","gamer");
 const GAMER_0005 = new Producto ("Freedy",5000,"./assets/GAMER/Freedy.jpeg","gamer");
@@ -41,7 +41,7 @@ const GAMER_0008 = new Producto ("Ken",4600,"./assets/GAMER/Ken.jpeg","gamer");
 const GAMER_0009 = new Producto ("Lee-Sin",4900,"./assets/GAMER/Lee-sin.jpeg","gamer");
 const GAMER_0010 = new Producto ("Megaman",4000,"./assets/GAMER/Megaman.jpeg","gamer");
 const GAMER_0011 = new Producto ("Mileena",4000,"./assets/GAMER/Mileena.jpeg","gamer");
-const GAMER_0012 = new Producto ("Ms. <br> Pac-man",3600,"./assets/GAMER/Ms.Pac-man.jpeg","gamer");
+const GAMER_0012 = new Producto ("Ms.Pac-man",3600,"./assets/GAMER/Ms.Pac-man.jpeg","gamer");
 const GAMER_0013 = new Producto ("Peely",4000,"./assets/GAMER/Peely.jpeg","gamer");
 const GAMER_0014 = new Producto ("Ryu",4900,"./assets/GAMER/Ryu.jpeg","gamer");
 const GAMER_0015 = new Producto ("Scorpion",5000,"./assets/GAMER/Scorpion.jpeg","gamer");
@@ -53,7 +53,7 @@ const GAMER_0018 = new Producto ("VI",4100,"./assets/GAMER/VI.jpeg","gamer");
 const DISNEY_0001 = new Producto ("Ariel",4000,"./assets/DISNEY/Ariel.jpeg","disney");
 const DISNEY_0002 = new Producto ("Bella",4200,"./assets/DISNEY/Belle.jpeg","disney");
 const DISNEY_0003 = new Producto ("Cenicienta",3000,"./assets/DISNEY/Cinderella.jpeg","disney");
-const DISNEY_0004 = new Producto ("Jack <br> Sparrow",4900,"./assets/DISNEY/Jack-sparrow.jpeg","disney");
+const DISNEY_0004 = new Producto ("Jack Sparrow",4900,"./assets/DISNEY/Jack-sparrow.jpeg","disney");
 const DISNEY_0005 = new Producto ("Lumiere",3500,"./assets/DISNEY/Lumiere.jpeg","disney");
 const DISNEY_0006 = new Producto ("Maléfica",4200,"./assets/DISNEY/Maleficent.jpeg","disney");
 const DISNEY_0007 = new Producto ("Merida",4400,"./assets/DISNEY/Merida.jpeg","disney");
@@ -76,18 +76,18 @@ const DC_0003 = new Producto ("Catwoman",4000,"./assets/DC/Catwoman.jpeg","dc");
 const DC_0004 = new Producto ("Cyborg",3000,"./assets/DC/Cyborg.jpeg","dc");
 const DC_0005 = new Producto ("Darkeid",3800,"./assets/DC/Darkseid.jpeg","dc");
 const DC_0006 = new Producto ("Flash",4000,"./assets/DC/Flash.jpeg","dc");
-const DC_0007 = new Producto ("Harley <br> Queen",4100,"./assets/DC/Harley-queen-2.jpeg","dc");
-const DC_0008 = new Producto ("Harley <br> Queen",4500,"./assets/DC/Harley-queen.jpeg","dc");
+const DC_0007 = new Producto ("Harley Queen",4100,"./assets/DC/Harley-queen-2.jpeg","dc");
+const DC_0008 = new Producto ("Harley Queen",4500,"./assets/DC/Harley-queen.jpeg","dc");
 const DC_0009 = new Producto ("Joker",4900,"./assets/DC/Joker-2.jpeg","dc");
 const DC_0010 = new Producto ("Joker",4800,"./assets/DC/Joker.jpeg","dc");
 const DC_0011 = new Producto ("Kid Flash",3500,"./assets/DC/Kid-flash.jpeg","dc");
 const DC_0012 = new Producto ("Martian",4000,"./assets/DC/Martian.jpeg","dc");
-const DC_0013 = new Producto ("Hiedra <br> Venenosa",3200,"./assets/DC/Poison-ivy.jpeg","dc");
+const DC_0013 = new Producto ("Hiedra Venenosa",3200,"./assets/DC/Poison-ivy.jpeg","dc");
 const DC_0014 = new Producto ("Redhood",4000,"./assets/DC/Redhood.jpeg","dc");
 const DC_0015 = new Producto ("Robin",4200,"./assets/DC/Robin.jpeg","dc");
 const DC_0016 = new Producto ("Supergirl",4100,"./assets/DC/Supergirl.jpeg","dc");
 const DC_0017 = new Producto ("Superman",5000,"./assets/DC/Superman.jpeg","dc");
-const DC_0018 = new Producto ("Linterna <br> Blanca",3900,"./assets/DC/White-lantern.jpeg","dc");
+const DC_0018 = new Producto ("Linterna Blanca",3900,"./assets/DC/White-lantern.jpeg","dc");
 
 //ANIME
 const ANIME_0001 = new Producto ("Asuka",3000,"./assets/ANIME/Asuka.jpeg","anime");
@@ -107,7 +107,7 @@ const ANIME_0014 = new Producto ("Nezuko",3800,"./assets/ANIME/Nezuko.jpeg","ani
 const ANIME_0015 = new Producto ("Rei",3900,"./assets/ANIME/Rei.jpeg","anime");
 const ANIME_0016 = new Producto ("Satoru",4800,"./assets/ANIME/Satoru.jpeg","anime");
 const ANIME_0017 = new Producto ("Tanjiro",3000,"./assets/ANIME/Tanjiro.jpeg","anime");
-const ANIME_0018 = new Producto ("Vegeta <br> Blue",5000,"./assets/ANIME/Vegeta-blue.jpg","anime");
+const ANIME_0018 = new Producto ("Vegeta Blue",5000,"./assets/ANIME/Vegeta-blue.jpg","anime");
 
 const PRODUCTOS = [MARVEL_0001,MARVEL_0005,MARVEL_0002,MARVEL_0003,MARVEL_0004,MARVEL_0006,MARVEL_0007,MARVEL_0008,MARVEL_0009,MARVEL_0010,MARVEL_0011,
     MARVEL_0012,MARVEL_0013,MARVEL_0014,MARVEL_0015,MARVEL_0016,MARVEL_0017,MARVEL_0018,GAMER_0001,GAMER_0002,GAMER_0003,GAMER_0004,GAMER_0005,GAMER_0006,
@@ -136,7 +136,12 @@ function cargarProductos (productosElegidos) {
                     <div class="card-info">
                         <h3 class="nombre-item">${producto.nombre}</h3>
                         <p class="precio-item">$ ${producto.precio}</p>
-                        <button class="boton">Agregar al Carrito</button>
+                        <div>
+                            <button class="bg-gray-50" id="botonRestar"><i class="bi bi-dash"></i></button>
+                            <span class="w-11" id="contenedorCantidad">1</span>
+                            <button class="bg-gray-50" id="botonSumar"><i class="bi bi-plus"></i></i></button>
+                            <button class="botonCarrito m-2">Agregar al carrito</button>
+                        </div>
                     </div>
                 `;
                 CARGAR_PRODUCTOS.appendChild(div);
@@ -181,9 +186,14 @@ function cargarIndex (PRODUCTOS) {
                     <div class="card-info">
                         <h3 class="nombre-item">${PRODUCTOS[i].nombre}</h3>
                         <p class="precio-item">$ ${PRODUCTOS[i].precio}</p>
-                        <button class="boton">Agregar al Carrito</button>
+                        <div class="flex">
+                            <button class="bg-gray-50" id="botonRestar"><i class="bi bi-dash"></i></button>
+                            <span class="flex justify-center items-center px-2" id="contenedorCantidad">1</span>
+                            <button class="bg-gray-50" id="botonSumar"><i class="bi bi-plus"></i></i></button>
+                        </div>
+                        <button class="botonCarrito m-2">Agregar al carrito</button>
                     </div>
-                `;
+                            `;
                 PRODUCTOS_INDEX.appendChild(DIV_INDEX);
     }
 }
