@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="bg-[url(../assets/Fondo.jpg)]">
+    <header class="lg:wrapper">
+        <div class="bg-black w-full p-2 hidden lg:flex">
+            <p class="text-center text-white">WHATSAPP: 2262613851 // 15% DE DESCUENTO ABONANDO EN EFECTIVO RETIRANDO POR NECOCHEA // 10% DE DESCUENTO 
+                PAGANDO POR TRANSFERENCIA BANCARIA // ENVIOS GRATIS A TODO EL PAÍS POR CORREO ARG EN COMPRAS SUPERIORES A $15999
+            </p>
+        </div>
+        <!--BARRA DE NAVEGACION-->
+        <nav class="h-20 flex justify-between items-center bg-gray-50 px-2 py-14 lg:px-12">
+            <a href="#" class="w-1/3 max-w-[100px]"><img class="w-full" src="assets/Logo.png" alt="Logo"></a>
+            <!-- <input class="p-2 border-2 w-[50%] border-sky-700 rounded-lg" type="text" placeholder="Buscar"> -->
+            <div class="flex gap-3">
+                <a href="pages/login.html"><img class="w-10 mr-3 hidden lg:flex " src="assets/Login.png" alt=""></a>
+                <a href="pages/carrito.html"><img class="w-10 mr-3 hidden lg:flex" src="assets/Carrito.png" alt=""></a>
+            </div>
+            <input type="checkbox" id="menu" class="peer hidden lg:hidden ">
+            <label for="menu" class="bg-open-menu w-6 h-5 bg-cover bg-center mr-3 cursor-pointer peer-checked:bg-close-menu transition-all z-50 lg:hidden"  ></label>
+            <div class="fixed inset-0  bg-gradient-to-b from-white/70 to-black/70 translate-x-full peer-checked:translate-x-0 transition-transform lg:hidden">
+                <ul class="absolute inset-x-0 top-24 p-12 bg-white w-[90%] mx-auto rounded-md h-max text-center grid gap-6 font-bold shadow-2xl lg:hidden">
+                    <li><a class="hover:text-cyan-400" href="pages/login.html">INICIAR SESIÓN</a></li>
+                    <li><a class="hover:text-cyan-400" href="pages/carrito.html">CARRITO</a></li>
+                    <!-- <li><a class="hover:text-cyan-400" href="#">PREGUNTAS FRECUENTES</a></li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="w-screen bg-gray-50 lg:flex flex-col lg:wrapper">
+    <!-- IMAGEN EN EL INICIO -->
+        <div class="lg:w-full lg:h-auto lg:wrapper ">
+            <img class=" lg:w-full lg:h-full " src="assets/Banner-3.jpg" alt="Banner">
+        </div>
+    <!-- INFORMACION -->
+           <div class=" block justify-center w-full p-4 bg-[#761500] lg:flex lg:h-96">
+                <div class=" text-center flex flex-col items-center lg:w-[33.3%]" >
+                    <i class="text-white text-3xl bi bi-truck pb-3 lg:h-[33.3%]"></i>
+                    <h3 class="font-bold text-white lg:h-[33.3%]">ENVÍOS A TODO EL PAÍS</h3>
+                    <p class="text-white pb-3 lg:h-[33.3%]">ENVÍOS GRATIS A TODO EL PAÍS POR CORREO ARG EN COMPRAS SUPERIORES A $59999</p>
+                    
+                </div>
+                <div class=" text-center  flex flex-col items-center lg:w-[33.3%]" >
+                    <i class="text-white  text-3xl bi bi-credit-card pb-3 lg:h-[33.3%]"></i>
+                    <h3 class="font-bold text-white lg:h-[33.3%]">DESCUENTOS EN EFECTIVO O TRANSFERENCIA BANCARIA</h3>
+                    <p class="text-white pb-3 lg:h-[33.3%]">15% DE DESCUENTO ABONANDO EN EFECTIVO RETIRANDO POR NECOCHEA // 10% DE DESCUENTO 
+                        PAGANDO POR TRANSFERENCIA BANCARIA</p>
+                    </div>
+                <div class=" text-center flex flex-col items-center lg:w-[33.3%]" >
+                    <i class="text-white  text-3xl bi bi-whatsapp pb-3 lg:h-[33.3%]"></i>
+                    <h3 class="font-bold text-white lg:h-[33.3%]">CONTACTO WHATSAPP</h3>
+                    <p class="text-white pb-3 lg:h-[33.3%]">CONTACTANOS POR WHATSAPP AL: 2262613851</p>
+                </div>
+        </div>
+        <section class="pt-5 flex flex-col items-center text-center bg-gray-50  ">
+            <h2 class="font-bold text-4xl text-center my-7">TODOS LOS PRODUCTOS <i class="text-yellow-400 text-3xl bi bi-star-fill"></i></h2>
+    <!--ACA SE MUESTRAN PRODUCTOS ALEATORIAMENTE-->
+            <div class="todosProductos grid grid-cols-2 w-auto px-2 justify-center lg:grid lg:grid-cols-2 lg:grid-rows-3 lg:justify-center lg:max-w-7xl gap-8 lg:items-center lg:wrapper "></div>
+            <button class="bg-black font-bold text-white w-[220px]  md:w-[300px] rounded-3xl text-xl text-center p-2 my-7
+                             md:transition-all md:hover:scale-[1.05]"><a href="pages/productos.html">VER MAS!!!</i></a></button>
+        </section>
+        <div>
+            <p class="text-center font-bold">Dejanos tu mail para recibir novedades</p>
+            <div class="flex justify-center gap-3 p-3">
+                <input type="text" placeholder="Tu email" class="w-48 h-10 border-2 border-gray-300 rounded-2xl p-3">
+                <button class="bg-black text-white rounded-2xl font-bold w-28 h-10">Enviar</button>
+            </div>
+        </div>
+    </main>
+    <!-- PIE DE PAGINA -->
+    <footer class="bg-black font-bold text-white gap-36 px-2 lg:grid grid-cols-3 justify-between lg:p-5 lg:wrapper">
+        
+        <div class="flex flex-col gap-5">
+            <h3>MEDIOS DE PAGO</h3>
+            <div class="flex  flex-wrap gap-3">
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/uala.png" class="w-14" alt="Medio Pago">
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/mercadopago.png" class="w-14" alt="Medio Pago"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/mastercard.png" class="w-14" alt="Medio Pago">
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/visa.png" class="w-14" alt="Medio Pago"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/american-express.png" class="w-14" alt="Medio Pago"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/naranja.png" class="w-14" alt="Medio Pago"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/cabal.png" class="w-14" alt="Medio Pago"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/maestro.png" class="w-14" alt="Medio Pago"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/diners-club.png" class="w-14" alt="Medio Pago"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/nativa.png" class="w-14" alt="Medio Pago"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/argencard.png" class="w-14" alt="Medio Pago"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/pagofacil.png" class="w-14" alt="Medio Pago"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/rapipago.png" class="w-14" alt="Medio Pago"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/deposito.png" class="w-14" alt="Medio Pago"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/efectivo.png" class="w-14" alt="Medio Pago">
+            </div>
+            <h3>MEDIOS DE ENVIO</h3>
+            <div class="flex gap-3">
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-envio/correo-argentino.png" class="w-14" alt="Medio Envio"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-envio/personalizado.png" class="w-14" alt="Medio Envio"> 
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-envio/retiro-local.png" class="w-14" alt="Medio Envio"> 
+                
+            </div>
+        </div>
+        <div class="flex flex-col gap-5 pt-6 lg:pt-0">
+           <h5>NUESTRAS REDES</h5> 
+           <div class="flex pb-5 gap-5">
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class=" bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15"/>
+                </svg></a>
+                
+            </div>
+        </div>
+        <div class="flex flex-col gap-5">
+            <h5>CONTACTO</h5>
+            <div>
+                <p>funkeria@gmail.com</p>
+                <p>2262613851</p>
+                <p>Necochea, Buenos Aires</p>
+                <a href="#">Boton de arrepentimiento</a>
+            </div>
+        </div>
+        
+    </footer>
+    <div class="text-black text-center bg-gray-50 lg:wrapper">
+        <p>© 2023 La Funkeria — <a href="https://github.com/diegodelagua"> <strong>Diego</strong></a></p>
+    </div>
+    <script src="javascript/index.js"></script>
+
+</body>
+</html>
