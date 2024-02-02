@@ -1,4 +1,5 @@
 const PRODUCTOS = [];
+const FOTO = document.getElementsByClassName("foto");
 
 
 // CARGA PRODUCTOS EN ARRAY DESDE PRODUCTOS.JSON
@@ -57,11 +58,7 @@ function cargarProductos (productosElegidos) {
 BOTONES_CATEGORIA.forEach (boton => {
         boton.addEventListener ("click",(e)=> {
             e.currentTarget.classList.add ("active");
-
             const PRODUCTOS_BOTON = PRODUCTOS.filter (producto => ((producto.categoria).toLowerCase()) === e.currentTarget.id);
-
             cargarProductos (PRODUCTOS_BOTON);
-            console.log ("hola");
-
     })
 });

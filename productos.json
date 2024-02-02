@@ -29,7 +29,7 @@
     },
     {   
         "id":"Dc-0005",
-        "nombre":"Darkeid",
+        "nombre":"Darkseid",
         "precio":3800,
         "img":"./assets/DC/Darkseid.jpeg",
         "categoria":"dc"
